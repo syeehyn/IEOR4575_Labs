@@ -14,7 +14,7 @@ $ conda activate ieor4575
 $ wandb login
 $ jupyter notebook
 ```
-Then, navigate to lab1.ipynb and complete the assignment.
+Then, complete problems 1 and 2 found in lab1_problem1.ipynb and lab1_problem2.ipynb, respectively.
 
 ## Visualization
 Find your performance curves at ```wandb.ai/ieor-4575/lab1```
