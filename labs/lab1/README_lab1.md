@@ -17,10 +17,10 @@ $ jupyter notebook
 Then, complete problems 1 and 2 found in lab1_problem1.ipynb and lab1_problem2.ipynb, respectively.
 
 ## Visualization
-Find your performance curves at ```wandb.ai/ieor-4575/lab1?workspace=default```
+You can see your performance curves in wandb window within the Jupyter notebook (see bottom of the notebook) or find them at ```wandb.ai/ieor-4575/lab1?workspace=default```
 
 ## Leaderboard
-Move your best results and see others' at ```wandb.ai/ieor-4575/leaderboard1?workspace=default```
+Move your best results and see others' best results to leaderboard at ```wandb.ai/ieor-4575/leaderboard1?workspace=default```
 
 ## Submission
 Please watch the following video for a walk-through of completing and submitting lab1 for the class.
