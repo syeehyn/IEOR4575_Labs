@@ -20,7 +20,7 @@ Then, complete problems 1 and 2 found in lab1_problem1.ipynb and lab1_problem2.i
 Find your performance curves at ```wandb.ai/ieor-4575/lab1?workspace=default```
 
 ## Leaderboard
-Check out the best results in the class at ```wandb.ai/ieor-4575/leaderboard1?workspace=default```
+Move your best results and see others' at ```wandb.ai/ieor-4575/leaderboard1?workspace=default```
 
 ## Submission
 Please watch the following video for a walk-through of completing and submitting lab1 for the class.
