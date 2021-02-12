@@ -1,5 +1,5 @@
 # IEOR4575 Lab 1 Instructions
-Instructor: Professor Shipra Agrawal\
+Instructor: Shipra Agrawal\
 Assistants: Yunhao Tang, Abhi Gupta
 
 ## Installation
