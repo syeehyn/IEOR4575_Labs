@@ -1,4 +1,4 @@
-# IEOR4575 Labs
+# IEOR4575 Assignments
 Instructor: Professor Shipra Agrawal\
 Assistants: Yunhao Tang, Abhi Gupta
 
