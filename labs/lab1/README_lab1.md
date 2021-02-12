@@ -26,4 +26,4 @@ Move your best results and see others' best results to leaderboard at ```wandb.a
 Please watch the following video for a walk-through of moving your best results to the leaderboard for this lab.
 
 ## Caution
-Do not attempt to change any code marked "DO NOT CHANGE"! We choose to make grading as transparent as possible. However, we will have an exact copy of your submitted code along with your performance curves on wandb.
+Do not attempt to change any code in the jupyter notebook that is marked "DO NOT CHANGE"! We choose to make grading as transparent as possible. However, we will have an exact copy of your submitted code along with your performance curves on wandb.
