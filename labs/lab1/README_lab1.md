@@ -23,7 +23,7 @@ You can see your performance curves in wandb window within the Jupyter notebook 
 Move your best results and see others' best results to leaderboard at ```wandb.ai/ieor-4575/leaderboard1?workspace=default```
 
 ## Submission
-Please watch the following video for a walk-through of completing and submitting lab1 for the class.
+Please watch the following video for a walk-through of moving your best results to the leaderboard for this lab.
 
 ## Caution
 Do not attempt to change any grading code! We choose to make grading as transparent as possible.However, we will have an exact copy of your submitted code along with your performance curves on wandb.
