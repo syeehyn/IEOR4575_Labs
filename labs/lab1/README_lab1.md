@@ -4,10 +4,10 @@ Assistants: Yunhao Tang, Abhi Gupta
 
 ## Installation
 ```
-Complete the installation instructions in the README.md found at the root directory.
+Complete the installation and wandb login instructions in the Installation-instructions.md.
 ```
 
-## Completing the Lab
+## Working on the Lab
 Assuming you are at the root of this directory:
 ```
 $ conda activate ieor4575
