@@ -19,6 +19,6 @@ $ jupyter notebook
 This lab is provided in both pytorch and tensorflow 2. You only need to complete the lab 4 assignment found in the torch folder OR tf2 folder.
 
 ## Visualization
-Find your runs here at the lab3 dashboard: https://wandb.ai/ieor-4575/lab4?workspace=default
+Find your runs here at the lab4 dashboard: https://wandb.ai/ieor-4575/lab4?workspace=default
 
 As in lab1, you will need to move your best runs from the lab4 dashboard to the leaderboard4 dashboad here: https://wandb.ai/ieor-4575/leaderboard4?workspace=default
