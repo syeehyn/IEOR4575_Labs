@@ -33,7 +33,7 @@ You can use the following script to familiarize yourself with the cutting plane 
 $ python example.py
 ```
 
-## Training performance evaluation
+## Training Performance Evaluation
 There are two environment settings on which your training performance will be evaluated. These can be loaded by using the following two configs (see example.py). Each mode is characterized by a set of parameters that define the cutting plane environment.
 
 The easy setup defines the environment as follows:
