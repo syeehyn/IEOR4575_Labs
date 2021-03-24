@@ -1,6 +1,13 @@
 from gymenv_v2 import make_multiple_env
 import numpy as np
 
+
+import wandb
+wandb.login()
+run=wandb.init(project="finalproject", entity="ieor-4575", tags=["training-easy"])
+#run=wandb.init(project="finalproject", entity="ieor-4575", tags=["training-hard"])
+#run=wandb.init(project="finalproject", entity="ieor-4575", tags=["test"])
+
 ### TRAINING
 
 # Setup: You may generate your own instances on which you train the cutting agent.
@@ -36,6 +43,8 @@ if __name__ == "__main__":
         s = env.reset()   # samples a random instance every time env.reset() is called
         d = False
         t = 0
+        repisode = 0
+
         while not d:
             a = np.random.randint(0, s[-1].size, 1)            # s[-1].size shows the number of actions, i.e., cuts available at state s
             s, r, d, _ = env.step(list(a))
@@ -43,4 +52,10 @@ if __name__ == "__main__":
             
             A, b, c0, cuts_a, cuts_b = s
             #print(A.shape, b.shape, c0.shape, cuts_a.shape, cuts_b.shape)
+
             t += 1
+            repisode += r
+
+    	    #wandb logging
+            wandb.log({"Training reward (easy config)" : repisode})
+	    #if using hard-config make sure to use title "Training reward (hard config) and "training-hard" tag in wandb.init in the initialization on top
