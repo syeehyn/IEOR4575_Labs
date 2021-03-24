@@ -55,7 +55,7 @@ if __name__ == "__main__":
 
             t += 1
             repisode += r
-
-    	    #wandb logging
-            wandb.log({"Training reward (easy config)" : repisode})
-	    #if using hard-config make sure to use title "Training reward (hard config) and "training-hard" tag in wandb.init in the initialization on top
+	
+	#wandb logging
+        wandb.log({"Training reward (easy config)" : repisode})
+	#if using hard-config make sure to use title "Training reward (hard config) and "training-hard" tag in wandb.init in the initialization on top
